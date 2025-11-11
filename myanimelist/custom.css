@@ -1,0 +1,103 @@
+/* Parent table box */
+.list-container {
+  background-color: #0000 !important;
+  border: none;
+}
+
+/* Categories box */
+.status-menu-container {
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Categories box bottom highlight */
+.status-menu-container .status-menu .status-button:after {
+    background-color: #ffffff;
+}
+
+/* CATEGORY BUTTONS */
+a.status-button.all_anime,
+a.status-button.all_manga{
+	color: orange !important;
+}
+a.status-button.watching,
+a.status-button.reading{
+	color: orange !important;
+}
+a.status-button.completed{
+	color: orange !important;
+}
+a.status-button.onhold {
+	color: red !Important;
+}
+a.status-button.dropped{
+	color: red !important;
+}
+a.status-button.plantowatch,
+a.status-button.plantoread{
+	color: red !important;
+}
+
+/* Anime titles table box */
+.list-table .list-table-data .data {
+  border-bottom: orange 0.5px solid;
+}
+
+/* Anime title */
+.list-table .list-table-data .data.title .link{
+	color: orange !important;
+	line-height: 45px;
+	font-size: 20px;
+}
+
+/* ANIME TITLE COLORS ON ROW HOVER
+Optional, because this can get complicated.*/
+.list-table .list-table-data:hover .data.title .link{
+	color: red !important;
+}
+
+/* Stats */
+.list-table .list-table-data .data a {
+  color: red !important;
+  font-size: 15px;
+}
+
+/* SEARCH BUTTON*/
+.status-menu-container .search-container #search-button{
+	color: red !important;
+}
+
+/* Left side floating box color */
+.list-menu-float .icon-menu {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Top right View your anime list */
+.header .header-menu .btn-menu {
+  color: red;
+  font-size: 15px;
+}
+
+/* Footer MAL info */
+#footer-block {
+  background-color: rgba(0,0,0,0);
+}
+#footer-block *, #footer-block a{
+	color: yellow !important;
+}
+
+/* Hiding stuffs */
+.list-table .list-table-data .data.title .add-edit-more {
+  display: none;
+}
+
+.list-unit .list-status-title {
+  display: none;
+}
+
+.list-table .list-table-data .data.title .content-status {
+  display: none;
+}
+
+.list-table .list-table-header .header-title {
+  display: none;
+}
