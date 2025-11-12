@@ -1,12 +1,13 @@
 /* Parent table box */
 .list-container {
-  background-color: #0000 !important;
+  background-color: rgba(0, 0, 0, 0) !important;
   border: none;
 }
 
 /* Categories box */
 .status-menu-container {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
 }
 
 /* Categories box bottom highlight */
@@ -37,10 +38,13 @@ a.status-button.plantoread{
 	color: red !important;
 }
 
-/* Anime titles table box */
+/* Anime info and table box */
 .list-table .list-table-data .data {
-  border-bottom: orange 0.5px solid;
-}
+  border-bottom: orange 0.3px solid;
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  }
 
 /* Anime title */
 .list-table .list-table-data .data.title .link{
@@ -49,16 +53,23 @@ a.status-button.plantoread{
 	font-size: 20px;
 }
 
-/* ANIME TITLE COLORS ON ROW HOVER
-Optional, because this can get complicated.*/
+/* ANIME TITLE COLORS ON ROW HOVER */
 .list-table .list-table-data:hover .data.title .link{
 	color: red !important;
 }
 
-/* Stats */
+/* Episode Stats */
 .list-table .list-table-data .data a {
   color: red !important;
   font-size: 15px;
+}
+
+/* Left side status bar color */
+.list-table .list-table-data .data.status.reading, .list-table .list-table-data .data.status.watching {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.list-table .list-table-data .data.status.completed {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /* SEARCH BUTTON*/
@@ -79,7 +90,7 @@ Optional, because this can get complicated.*/
 
 /* Footer MAL info */
 #footer-block {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 #footer-block *, #footer-block a{
 	color: yellow !important;
