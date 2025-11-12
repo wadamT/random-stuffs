@@ -100,15 +100,15 @@ a.status-button.plantoread{
 .list-table .list-table-data .data.title .add-edit-more {
   display: none;
 }
-
 .list-unit .list-status-title {
   display: none;
 }
-
 .list-table .list-table-data .data.title .content-status {
   display: none;
 }
-
 .list-table .list-table-header .header-title {
   display: none;
 }
+.malicon {
+  display: none;
+} /* Where to watch */
